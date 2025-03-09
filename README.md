@@ -5,7 +5,8 @@
 ## Sobre o projeto :computer:
 
 Um pequeno Ecommerce de roupas desenvolvido apenas no Frontend, com funcionalidades mínimas como interação com 
-o botão de favoritos, carregar mais produtos e página para cada produto.
+o botão de favoritos, carregar mais produtos e página para cada produto. A diferença para esse Ecommerce é: possui 100% de
+desempenho. No final deste README há uma imagem mostrando o desempenho da aplicação.
 
 ---
 
@@ -29,6 +30,11 @@ o botão de favoritos, carregar mais produtos e página para cada produto.
 
 ## Demo :camera:
 <img width="100%" height="100%" src="./src/app/assets/demo.png" />
+
+---
+
+## Desempenho :mag:
+<img width="100%" height="100%" src="./src/app/assets/performance.png" />
 
 ---
 
