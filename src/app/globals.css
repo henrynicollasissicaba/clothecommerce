@@ -1,42 +1,33 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import "tailwindcss";
+
+@theme {
+    --color-yellow: #EDBE3C;
+    --color-brown: #AE8D70;
+    --color-dark-brown: #3B3026;
+    --color-gray: #AEA6A3;
+    --color-light-blue: #98E6F2;
+    --color-emerald: #00bc7d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* CUSTOM SHADOW-BOX */
+.inset-shadow {
+    @apply shadow-[0px_50px_100px_-20px_rgba(50,50,93,0.25),0px_30px_60px_-30px_rgba(0,0,0,0.3),0px_-2px_6px_0px_rgba(10,37,64,0.35)_inset]
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+/* CUSTOM HORIZONTAL SCROLLBAR */
+.custom-scrollbar::-webkit-scrollbar {
+    @apply h-2
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-emerald rounded-sm
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-200 rounded-sm
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.global-button-style {
+    @apply bg-emerald text-white rounded-lg transition-all duration-300 hover:bg-white
+    hover:text-emerald cursor-pointer border-2 border-transparent hover:border-emerald
 }
