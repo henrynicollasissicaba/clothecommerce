@@ -1,5 +1,4 @@
 import { contacts, menu, paymentMethods } from "@/app/utils";
-import Logo from "../Logo";
 import Image from "next/image";
 import { FooterContainer, FooterHeading, FooterWrapper } from "../footer/FooterContainer";
 
