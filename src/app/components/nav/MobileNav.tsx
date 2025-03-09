@@ -33,8 +33,8 @@ export default function MobileNav(){
                                 <li 
                                     key={item.id}
                                     onClick={() => setIsOpen(false)}
-                                    className="flex items-center justify-between focus-within:text-yellow 
-                                    hover:text-yellow cursor-pointer outline-0 transition-colors"
+                                    className="flex items-center justify-between focus-within:text-emerald-500 
+                                    hover:text-emerald-500 cursor-pointer outline-0 transition-colors font-medium"
                                 >
                                     <a 
                                         href={item.link} 

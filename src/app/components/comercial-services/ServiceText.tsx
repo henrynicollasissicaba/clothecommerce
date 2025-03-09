@@ -2,9 +2,9 @@ import ChildrenProps from "@/app/types/common";
 
 function ServiceTitle({ children }: ChildrenProps){
     return(
-        <h2 className="text-center font-bold text-2xl text-emerald">
+        <h3 className="text-center font-bold text-2xl text-emerald">
             {children}
-        </h2>
+        </h3>
     )
 }
 

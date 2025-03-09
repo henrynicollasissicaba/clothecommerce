@@ -6,7 +6,6 @@ import { FooterContainer, FooterHeading, FooterWrapper } from "../footer/FooterC
 export default function Footer(){
     return(
         <footer className="mt-16 bg-gray-900 p-4">
-            <Logo />
             <div className="mt-16 flex flex-wrap justify-between gap-10">
                 <FooterContainer>
                     <FooterHeading>Contatos</FooterHeading>
@@ -49,7 +48,7 @@ export default function Footer(){
                     </div>
                 </FooterContainer>
             </div>
-            <p className="text-emerald text-xs text-center mt-10">Copyright &copy;{new Date().getFullYear()} | Todos os direitos reservados</p>
+            <p className="text-emerald-500 text-xs text-center mt-10">Copyright &copy;{new Date().getFullYear()} | Todos os direitos reservados</p>
         </footer>
     )
 }

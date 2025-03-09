@@ -10,7 +10,7 @@ function FooterContainer({ children }: ChildrenProps){
 
 function FooterHeading({ children }: ChildrenProps){
     return(
-        <span className="text-2xl text-emerald font-bold">
+        <span className="text-2xl text-emerald-500 font-bold">
             {children}
         </span>
     )

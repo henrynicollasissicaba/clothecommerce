@@ -21,9 +21,9 @@ export function TestimonialsProfilePhoto({ src }: { src: StaticImageData }){
 
 export function TestimonialsUsername({ children }: ChildrenProps){
     return(
-        <h2 className="text-2xl font-bold border-b-[2px] border-emerald">
+        <h4 className="text-2xl font-bold border-b-[2px] border-emerald">
             {children}
-        </h2>
+        </h4>
     )
 }
 

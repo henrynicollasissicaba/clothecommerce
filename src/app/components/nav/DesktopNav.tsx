@@ -7,7 +7,7 @@ export default function DesktopNav(){
                 <a 
                     key={item.id}
                     href={item.link}
-                    className={`text-emerald hover:text-emerald-700 transition-colors`}
+                    className={`text-emerald hover:text-emerald-500 font-medium transition-colors`}
                 >
                     {item.label}
                 </a>
